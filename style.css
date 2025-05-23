@@ -1,0 +1,88 @@
+/* Write your CSS code here */
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #e9dfff;
+    margin: 0;
+    font-family:monospace;
+}
+main{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.specialHeading{
+    display:inline-block;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 0.25rem 0.5rem;
+    background: #ddd;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .5);
+    text-transform: uppercase;
+    
+}
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+arial{
+    font-family: Arial,sans-serif;
+}
+times{
+    font-family: 'Times New Roman', Times, serif;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.orange-text{
+    color: orange;
+}
+.orangebg{
+    background-color: orange;
+}
+.square{
+    height: 100px;
+    width: 100px;
+}
+.purple-text {
+    color:purple;
+}
+.purplebg {
+    background-color: purple;
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+button{
+    border: 0;
+    background: purple;
+    display: inline-block;
+    max-width: 100px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+background: rgb(224, 123, 224);
+}
+button:active{
+    background: rgb(231, 194, 231);
+    color: #000;
+}
